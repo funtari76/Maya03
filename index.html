@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya-Site</title>
+    <link rel="stylesheet" href="/assets/CSS/style.css" />
+  </head>
+  <body>
+    <!------------Navbar------------->
+    <nav class="navbar">
+      <h1 class="logo">MEXICO</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li class="ctn"><a href="#">CONTACT</a></li>
+      </ul>
+      <img src="/assets/images/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-cont">
+        <h2>Welcome To Chichen Itza</h2>
+
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+
+      <!--Center Text-->
+      <!--<div id="chich_grad"></div>-->
+      <!-- <div class="text-box">
+        <h1>Ancient Maya Civilization</h1>
+        <h3>Experience The Great Seven Wonders Of The World</h3>
+        <div class="line"></div>
+      </div>-->
+    </header>
+
+    <!------------Section About------------>
+    <section class="eventer">
+      <div class="title">
+        <h1>About Section</h1>
+      </div>
+      <div class="rad">
+        <div class="kulm">
+          <img src="/assets/images/couplesrunning.jpg" alt="" />
+          <h4>Visiting Chichen Itza</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laboriosam dicta nesciunt praesentium ducimus consectetur quas esse,
+            incidunt dolorum accusantium dignissimos aspernatur reprehenderit
+            odit labore nisi vel optio! Porro, sit!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="kulm">
+          <img src="/assets/images/UpcloseTemple.jpg" alt="" />
+          <h4>Chichen Itza</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            laboriosam dicta nesciunt praesentium ducimus consectetur quas esse,
+            incidunt dolorum accusantium dignissimos aspernatur reprehenderit
+            odit labore nisi vel optio! Porro, sit!
+          </p>
+          <a href="#" class="ctn">Trips</a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
